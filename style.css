@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header-parent {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+  align-items: center;
+}
+.header-center {
+  display: flex;
+  gap: 150px;
+}
+.header-center a {
+  text-decoration: none;
+  color: #222222;
+}
+.header-center a:hover {
+  color: #de2e54;
+}
+.header-right button {
+  width: 189px;
+  height: 49px;
+  background: #ffffff;
+  border: 2px solid #de2e54;
+  padding: 12px 24px 12px 24px;
+  cursor: pointer;
+}
+.hero {
+  background-image: url(./bg.png);
+  background-size: cover;
+}
+
+.hero-parent {
+  padding-top: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-left {
+  color: white;
+  font-size: 36px;
+  font-weight: 700px;
+}
+.hero-left button {
+  width: 189px;
+  height: 49px;
+  background: #de2e54;
+  color: white;
+  border-radius: 8px;
+  margin-top: 70px;
+}
+.hero-left button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Xizmatlar Styles  */
+
+.xizmatlar {
+  padding: 80px 0;
+}
+.xizmatlar-title {
+  font-size: 36px;
+  font-weight: 700px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.xizmatlar-parent {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Contact Style  */
+
+.contact {
+  padding: 80px 0;
+  background-color: aqua;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.contact-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 600px;
+  height: 450px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.contact-right input {
+  width: 100%;
+  height: 60px;
+  padding: 0 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.contact-right button {
+  width: 100%;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Footer Style  */
+
+footer {
+  padding: 10px 0;
+  background-color: #222222;
+}
+
+.footer-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-right {
+  display: flex;
+  gap: 50px;
+}
+.footer-right a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+.footer-right a:hover {
+  color: red;
+}
